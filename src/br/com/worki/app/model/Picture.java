@@ -3,8 +3,16 @@ package br.com.worki.app.model;
 public class Picture {
 
 	private long id;
+	private String name;
 	private String url;
 	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public long getId() {
 		return id;
 	}

@@ -12,7 +12,16 @@ public class Event {
 	private Calendar endDate;
 	private String image;
 	private String purchaseTicket;
+	private String address;
 	private ArrayList<Ticket> tickets;
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
 
 	public ArrayList<Ticket> getTickets() {
 		return tickets;

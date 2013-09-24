@@ -4,6 +4,16 @@ public class Music {
 
 	private long id;
 	private String url;
+	private String name;
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public long getId() {
 		return id;
